@@ -1,0 +1,119 @@
+*{
+    cursor: pointer;
+} 
+.container{
+    vertical-align: center;
+    display: inline-block;
+    margin-left: 550px; 
+    margin-right: 100px;
+    border: none;
+    height: 510px;
+    width: 300px;
+    background-color:blue;
+    opacity: 0.7;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+.container:hover{
+    vertical-align: center;
+    display: inline-block;
+    margin-left: 550px; 
+    margin-right: 100px;
+    border: none;
+    height: 510px;
+    width: 300px;
+    /* background-color: white; */
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 10px yellow ;
+}
+.restart{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: blue;
+    border: none;
+    
+}
+.restart:hover:active{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: blue;    
+}
+.name{
+    height: 50px;
+    width: 280px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.name:focus:hover{
+    height: 100px;
+    width: 280px;
+    margin: 5px;
+    border: none;
+}
+.add{
+    height: 30px;
+    background-color: burlywood;
+    opacity: 0.7 ;
+    border: none;
+    border-radius: 10px;
+}
+.add:hover{
+    height: 30px;
+    background-color: burlywood;
+    transition: ease-in-out;
+    border: none;
+    border-radius: 20px;
+    opacity: 1;
+}
+.draw{
+    height: 30px;
+    background-color: burlywood;
+    opacity: 0.7;
+    border: none;
+    border-radius: 10px;
+}
+.draw:hover{
+    height: 30px;
+    background-color: burlywood;
+    transition: ease-in-out;
+    opacity: 1;
+    border: none;
+    border-radius: 20px;
+}
+.namesInput{
+display: inline-flex;
+height: 50px;
+width: 280px;
+margin: 5px;
+border: none;
+background-color: white;
+color: black;
+border-radius: 5px;
+overflow: auto;
+word-wrap: break-word;
+}
+.drawNames{
+display: inline-flex;
+height: 40px;
+width: 280px;
+margin: 5px;
+border: none;
+background-color: white;
+color: black;
+border-radius: 5px;
+}
+h1{
+    /* border-top: 2px; */
+    font-weight: bolder;
+    font-size: x-large;
+}
+h4{
+    font-size: small;
+}
